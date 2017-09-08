@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
-  
+</head>
+<body>
+  <canvas id="canvas" width="600" height="600"></canvas>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.3.2/gl-matrix-min.js"></script>
   
   <script id="shader-vs" type="x-shader/x-vertex">
@@ -24,9 +25,6 @@
     gl_FragColor = color;
   }
   </script>
-  
-</head>
-<body>
-  <canvas id="canvas" width="600" height="600"></canvas>
+  <script src="lib/script.js"></script>
 </body>
 </html>
